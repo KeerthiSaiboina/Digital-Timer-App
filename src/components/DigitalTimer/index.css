@@ -1,0 +1,95 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #cffcf1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-size: 48px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-align: center;
+}
+.timer-container {
+  text-align: center;
+  display: flex;
+}
+.time-running-container {
+  background-color: #00d9f5;
+  height: 45vh;
+  width: 45vw;
+  border-top-left-radius: 153px;
+  border-bottom-left-radius: 103px;
+  border-bottom-right-radius: 393px;
+  border-top-right-radius: 353px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-card {
+  background-color: #ffffff;
+  height: 23vh;
+  width: 25vw;
+  border-radius: 170px;
+}
+.timmer {
+  font-size: 48px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-align: center;
+  color: #cffcf1;
+}
+
+.timmer-state {
+  font-size: 28px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.timer-controller-container {
+  display: flex;
+}
+.timer-controller-btn {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border-style: none;
+}
+.timer-controller-icon {
+  height: 60px;
+}
+.timer-controller-label {
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.timer-limit-controller-container {
+}
+.limit-label {
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.limit-controller-button {
+  background-color: transparent;
+  width: 30px;
+  font-size: 50px;
+  border-style: none;
+}
+.label-value-container{
+  background-color: #00d9f5;
+  height: 60px;
+  width: 100px;
+  text-align: center;
+  box-shadow: 0px 4px 16px 0px #bf
+}
+.time {
+  font-size: 45px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
